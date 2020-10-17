@@ -1,0 +1,44 @@
+.serviceStyle:hover{
+box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+transform: scale 1.1;
+text-decoration:none;
+
+}
+
+.service :hover{
+    text-decoration:none!important;
+}
+
+.serviceStyle{
+    padding:20px;
+    
+    vertical-align:middle;
+    transition:all 0.6s;
+    min-height:200px;
+    border-radius:10px;
+    }
+.container{
+    font-family: 'Poppins', sans-serif;
+}
+
+.hStyle{
+    font-weight: 600;
+    margin-top:20px
+}
+a {
+    color: black;
+    text-decoration: none!important;
+    background-color: transparent;
+    font-weight:500;
+    font-size: 16px;
+    transition:all 0.5s;
+}
+
+a:hover{
+    color: black;
+    font-weight:700;
+    font-size: 17px;
+    text-decoration: none!important;
+    transform:scale(1.1)
+    
+}
